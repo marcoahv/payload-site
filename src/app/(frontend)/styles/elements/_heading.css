@@ -1,0 +1,28 @@
+@utility -heading-1 {
+  font-weight: var(--font-regular);
+  line-height: 1;
+
+  font-size: var(--text-h1-mobile);
+  @apply atMedium:text-h1-tablet;
+  @apply atLarge:text-h1-desktop;
+}
+
+@utility -heading-2 {
+  font-weight: var(--font-regular);
+  line-height: 1;
+
+  font-size: var(--text-h2-mobile);
+  @apply atMedium:text-h2-tablet;
+  @apply atLarge:text-h2-desktop;
+}
+
+@utility -heading-3 {
+  font-weight: var(--font-regular);
+  line-height: 1;
+
+  font-size: var(--text-h3-mobile);
+  @apply atMedium:text-h3-tablet;
+  @apply atLarge:text-h3-desktop;
+}
+
+/* add more heading sizes as needed acording to project */

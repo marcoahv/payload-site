@@ -1,0 +1,60 @@
+@theme {
+  /*=============================================
+*                 Colors                     
+=============================================*/
+
+  /* Primary color */
+
+  --color-primary: #d6c1a1;
+  --color-primary-light: #e2dbcf;
+  --color-primary-dark: #b2905c;
+
+  /* Secondary color */
+
+  --color-secondary: #49b7d2;
+  --color-secondary-light: #9fd0dc;
+  --color-secondary-dark: #137c95;
+
+  /* Text colors */
+
+  --color-text-dark: #1d1f22;
+  --color-text-gray: #bebfc4;
+  --color-text-light: #f2f2f2;
+
+  /* Gray Scale Colors */
+
+  --color-black: #000000;
+  --color-gray-dark: #545454;
+  --color-gray: #8d8d8d;
+  --color-gray-light: #c5c5c5;
+  --color-white: #ffff;
+
+  /* Utility colors */
+
+  --color-red: #d12727;
+  --color-red-light: #f5c4c6;
+
+  --color-blue: #0468db;
+  --color-blue-light: #b4d2f4;
+
+  --color-yellow: #ffb800;
+  --color-yellow-light: #f3d483;
+
+  --color-green: #3c8505;
+  --color-green-light: #acd091;
+
+  /* Gradients colors*/
+
+  --color-gradient-primary: linear-gradient();
+  /* add colors and parameters */
+
+  /*=====  End of Colors  ======*/
+}
+
+@utility color-container {
+  @apply bg-primary
+  atSmall:bg-secondary;
+
+  @apply text-9xl 
+  atSmall:text-2xl;
+}

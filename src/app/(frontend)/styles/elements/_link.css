@@ -1,0 +1,21 @@
+@utility -link {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--color-text-dark);
+  font-weight: var(--font-regular);
+  font-size: var(--text-base);
+  transition: color 0.3s ease 0s;
+  height: auto;
+
+  white-space: nowrap;
+  overflow: hidden;
+
+  &:hover {
+    color: var(--color-secondary-light);
+    text-decoration: underline;
+  }
+}
+@utility -link--mobile {
+  color: var(--color-text-light);
+}

@@ -1,0 +1,59 @@
+@utility header {
+  background-color: transparent;
+  transition: background-color 0.5s ease-in-out;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+@utility header__scroll {
+  background-color: rgb(224, 224, 224, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+/*  (from 0px to 799px viewport width) */
+@utility header__mobile-navbar {
+  display: block;
+
+  @apply md:hidden;
+}
+
+@utility header__mobile-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  opacity: 0.95;
+  padding: 3rem 2rem;
+  text-align: center;
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  font-size: 1.2rem;
+
+  transition: transform 0.3s ease;
+  transform: translateX(100%);
+
+  &.active {
+    transform: translateX(0);
+  }
+}
+
+/* (from 800px and larger viewport width) */
+@utility header__navbar {
+  display: none;
+
+  @apply md:block;
+}
+
+@utility header__menu {
+  display: flex;
+  align-items: center;
+
+  gap: 2rem;
+}
