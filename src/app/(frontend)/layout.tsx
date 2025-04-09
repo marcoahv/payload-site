@@ -1,5 +1,5 @@
-import { Header } from '@/Globals/Header/Header'
-import { Footer } from '@/Globals/Footer/Footer'
+import { Header } from '@/globals/Header/Header'
+import { Footer } from '@/globals/Footer/Footer'
 
 import './fonts'
 import './styles/index.css'

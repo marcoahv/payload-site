@@ -30,8 +30,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/app/(frontend)/fonts.js",
-    "src/Globals/Header/data.ts",
-    "src/Globals/Header/Header.client.jsx"
+    "src/globals/Header/data.ts",
+    "src/globals/Header/Header.client.jsx"
   ],
   "exclude": ["node_modules"]
 }
